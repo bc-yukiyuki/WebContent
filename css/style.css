@@ -126,3 +126,9 @@ main {
 
 
 }
+
+.wrapper {
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
