@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <header>
+    <header class="page-header">
         <h1>鈴木雪司の自己紹介サイト</h1>
 
         <!-- コメントアウトのショートカット　Ctrl+/ -->
-        <nav>
+        <nav class="main-nav">
             <ol>
                 <a href="#about">
                     <li>私について</li>
@@ -98,6 +98,28 @@
 
         </section>
     </main>
+
+
+    <h2>お問い合わせ</h2>
+    <p>お問い合わせは以下のフォームからご連絡ください。</p>
+    <form action="#" method="post">
+        お名前: <input type="text" placeholder="田中太郎" required>
+        <br>
+        メールアドレス: <input type="email" placeholder="abc@example.com" required>
+        <br>
+        メッセージ: <input type="textarea" placeholder="こちらに記入してください" required>
+        <br>
+        お問い合わせ種別:
+        <input type="radio" name="inquiry-type" id="質問" value="質問">
+        <label for="質問">質問</label>
+        <input type="radio" name="inquiry-type" id="フィードバック" value="フィードバック">
+        <label for="フィードバック">フィードバック</label>
+        <input type="radio" name="inquiry-type" id="その他" value="その他">
+        <label for="その他">その他</label>
+        <br>
+        <input type="submit" value="送信する">
+    </form>
+
 
     <footer>
 

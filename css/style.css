@@ -6,7 +6,7 @@ h1 {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "メイリオ";
 }
 
 h2 {
@@ -15,6 +15,9 @@ h2 {
 
 #private {
     padding: 30px;
+    border-color: azure;
+    border: 2px dotted #333;
+    /* 枠線を点線で指定し、濃いグレーに設定 */
 }
 
 #private ul {
@@ -25,21 +28,101 @@ h2 {
 #about {
     line-height: 1.8;
     margin: 20px 0;
+    border: 3px dashed #ff4500;
+    /* 枠線を破線で指定し、オレンジ色に設定 */
 }
 
 footer {
     text-align: center;
     height: 150px;
+    background-image: url(../image/background_blue.png)
 }
 
 #history {
-    color: cadetblue;
+    color: black;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+}
+
+#history table {
+    margin: auto;
+    text-align: center;
+    border: 2px solid #ccc;
+    /* 枠線を実線で指定し、薄いグレーに設定 */
+    border-collapse: collapse;
+    /* 枠線をスッキリさせる */
+
+}
+
+#history table th,
+#history table td {
+    padding: 10px;
+}
+
+#history table th {
+    background-color: #4a90e2;
+    color: #ffffff;
 }
 
 header {
     background-color: antiquewhite;
+    border-width: 5px;
+    /* 枠線の太さを5pxに設定 */
+    border-style: solid;
+    /* 実線を指定 */
+    border-color: #0056b3;
+    /* 青色の枠線を指定 */
+
 }
 
 image {
     width: 30%;
+}
+
+.page-header nav ol {
+    display: flex;
+    list-style: none;
+}
+
+.page-header nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-nav li {
+    padding-right: 30px;
+}
+
+.main-nav {
+    padding-top: 35px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+main {
+    padding-top: 80px
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #f7de83;
+
+    position: fixed;
+
+
 }
