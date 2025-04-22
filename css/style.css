@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+h1 {
+    font-size: 36px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#private {
+    padding: 30px;
+}
+
+#private ul {
+    line-height: 2.8;
+}
+
+
+#about {
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    height: 150px;
+}
+
+#history {
+    color: cadetblue;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+image {
+    width: 30%;
+}
